@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package example;
+
+message EventMessage {
+  string eventId = 1;
+  string eventName = 2;
+  int32 eventPriority = 3;
+  // Add more fields as needed
+}
